@@ -146,8 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3fec753c5afae90",
+  "active": "8b5860e59d40a66f",
   "lastOpenFiles": [
+    "helloTest4/app/build/classes/java/test/de/bad/MyAppTest.class",
+    "helloTest4/app/build/classes/java/test/de/bad/AppTest.class",
+    "helloTest4/app/build/classes/java/main/de/bad/MyApp.class",
+    "helloTest4/app/build/classes/java/main/de/bad/App.class",
+    "helloTest4/app/src/test/java/de/bad/MyAppTest.java",
+    "helloTest4/app/src/test/java/de/bad/AppTest.java",
+    "helloTest4/app/build/tmp/compileTestJava/compileTransaction/stash-dir/MyAppTest.class.uniqueId0",
+    "helloTest4/app/src/main/java/de/bad/MyApp.java",
+    "helloTest4/app/src/main/java/de/bad/App.java",
+    "helloTest4/app/build/tmp/compileJava/compileTransaction/stash-dir/MyApp.class.uniqueId0",
+    "helloTest4/app/build/reports/tests/test/packages/de.bad.html",
     "1.md",
     "README.md"
   ]
