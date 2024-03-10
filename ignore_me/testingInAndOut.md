@@ -2,6 +2,8 @@
 
 Java Stream (`System.in`, `System.out`)Grundlagen klar ?
 
+Analogie : Stellmotor für einen Raketenmotor: Fazit : Testbed / Fixture zu bauen kann aufwendig sein, ist es aber Wert zu tun.
+
 ### Hello World TDD style mit java / gradle / junit5
 
 - Lösung:  
