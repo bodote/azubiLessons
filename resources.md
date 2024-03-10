@@ -1,6 +1,6 @@
 # Resources
 
-## high level talks about TDD:
+## High level Videos about TDD:
 
 ### [TDD, Where Did It All Go Wrong (Ian Cooper)](https://youtu.be/EZ05e7EMOLM?si=fydSo58rklUexrBO&t=1334)
 
@@ -82,7 +82,7 @@ This video discusses the speaker's experiences and insights into the practice an
 
 This video is an in-depth discussion on the misconceptions surrounding Test-Driven Development (TDD) and proposes a more effective approach to TDD that focuses on testing behaviors rather than implementation details.
 
-## Takeaways
+#### Takeaways
 
 🔍 **TDD Misconceptions**: The speaker clarifies that TDD is not just about unit testing but is a broader methodology for improving code quality through behavior-driven tests.
 
@@ -104,7 +104,7 @@ This video is an in-depth discussion on the misconceptions surrounding Test-Driv
 
 🔄 **Continuous Refactoring**: Encouraging continuous improvement of the codebase through refactoring, which is a core aspect of the TDD cycle.
 
-## Summary
+#### Summary
 
 1. The video starts by setting expectations, clarifying that it is not a basic TDD tutorial but a critical analysis of conventional TDD practices.
 2. The speaker critiques the prevailing focus on unit testing within TDD, emphasizing that TDD is more about testing behaviors and outcomes.
@@ -117,7 +117,7 @@ This video is an in-depth discussion on the misconceptions surrounding Test-Driv
 9. The concept of avoiding debugging by designing tests that localize defects to recent changes is explained.
 10. Lastly, the video concludes by encouraging developers to focus on the behaviors that their code is supposed to exhibit, rather than the intricate details of how those behaviors are implemented.
 
-## Diagram
+#### Diagram
 
 Let's visualize the key points discussed in the video:
 
@@ -133,6 +133,50 @@ graph LR
     Behavior --> AvoidOverSpecification[Avoiding Over-Specification]
     Integration --> DesignByTests[Design by Tests]
 ```
+
+## When Test Driven Development Goes Wrong (Dave Farley)
+[Video link: When Test Driven Development Goes Wrong (Dave Farley)](https://youtu.be/UWtEVKVPBQ0?si=fb-yHhtJlykp6OyH)
+The video discusses the value of Test Driven Development (TDD) and outlines common pitfalls encountered by practitioners, emphasizing how these pitfalls can actually guide toward better software design.
+
+#### Takeaways
+- 🚀 **TDD Importance**: TDD is a significant advancement in software development, promoting high-quality code through a test-first approach.
+- 🛠 **Common Mistakes**: The video identifies common anti-patterns in TDD that can hinder its effectiveness, including the liar, excessive setup, the giant, mockery, and inspector anti-patterns.
+- 📚 **Learning Opportunity**: These anti-patterns are not just mistakes but opportunities to learn and improve software design and architecture.
+- 💡 **Design Feedback**: TDD provides valuable feedback on design quality, indicating areas for improvement when tests are hard to write.
+- 📈 **Code Quality**: Embraces modular, cohesive, and well-separated code, leading to better maintainability and evolution over time.
+- ❌ **Excessive Setup**: Indicates a lack of consideration for testability during code design, leading to fragile tests.
+- 🎯 **Focus on Behavior**: TDD encourages focusing on desired behavior rather than technical details, improving code clarity and purpose.
+- 🛁 **Clean Tests**: Advocates for simple, focused tests that avoid excessive setup and multiple assertions, making tests easier to maintain and understand.
+- 🔄 **Feedback Loop**: Establishes a fast, efficient feedback loop for continuous design improvement.
+- 📖 **Continuous Learning**: TDD is a practice of continuous learning, allowing developers to refine their understanding of good design through testing.
+
+#### Summary
+1. TDD is highlighted as a critical advancement in software development, emphasizing quality code creation.
+2. Five common TDD anti-patterns are discussed: the liar, excessive setup, the giant, mockery, and inspector, each showcasing a specific pitfall in TDD practice.
+3. These anti-patterns serve as indicators of areas where software design can be improved.
+4. The video explains how difficulties in writing tests signal design flaws, prompting a reconsideration of code architecture.
+5. It stresses the importance of modular, cohesive, and well-separated code for easier maintenance and evolution.
+6. A significant part of the discussion is dedicated to how excessive setup in tests reveals poor code separation and design.
+7. The speaker advocates for writing tests that focus on the desired behavior of the software rather than its implementation details.
+8. Clean, focused tests with minimal setup and singular assertions are recommended for clarity and maintainability.
+9. TDD establishes a feedback loop that informs developers about the quality of their design, encouraging continuous improvement.
+10. The video encourages viewing TDD and its challenges as opportunities for learning and refining software design skills.
+
+#### Diagram
+```mermaid
+graph LR
+    TDD[Test Driven Development] --> AntiPatterns[5 Common Anti-Patterns] 
+    AntiPatterns --> Liar[Liar]
+    AntiPatterns --> ExcessiveSetup[Excessive Setup]
+    AntiPatterns --> Giant[Giant]
+    AntiPatterns --> Mockery[Mockery]
+    AntiPatterns --> Inspector[Inspector]
+    TDD --> Benefits[Benefits of TDD]
+    Benefits --> Quality[Improves Code Quality]
+    Benefits --> Feedback[Efficient Feedback Loop]
+    Benefits --> Design[Enhances Code Design]
+```
+
 
 
 ## Books:
