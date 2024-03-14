@@ -27,9 +27,12 @@
 
 ### Warum macht das nicht jeder ?
 
+#### Pitfalls
+es gibt einige Fallen in die mal läuft, wenn man frisch vom TDD-Tutorial, TDD in größeren Projekten anwenden will. z.B. [An Ultimate Guide To BDD(lass dich nicht vom Titel verwirren)](https://youtu.be/gXh0iUt4TXA?si=xDReoNnkctGPSaXZ) oder [TDD Revisited - Ian Cooper - NDC Porto 2023](https://youtu.be/IN9lftH0cJc?si=Af_9KUvlnCtNRjfL)
+
 #### steilere Lernkurfe
 
-- statt "nur" die Anforderungen zu erstellen muss ich zusätzlich:
+- statt "nur" die Anforderungen ("requirements" oder "specification") zu erstellen muss ich zusätzlich:
 - wissen wir man Tests schreibt (also Testframeworks (z.B. Junit5, oder spring-boots @SpringBootTest oder @WebMVCTest) kennen)
 - UND ich muss mich daran gewöhnen bei neuen Anforderungen zuerst über das Konzept/Design der Tests nachzudenken, wobei die zu Testende Funktion/Classe/Modul zunächst als "BlackBox" mental gesehen wird
 - ich hinterfrage also gegenüber dem PO zuerst die Testbarkeit und nicht die Implementierbarkeit
