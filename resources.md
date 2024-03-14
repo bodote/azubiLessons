@@ -64,7 +64,7 @@ This video discusses the speaker's experiences and insights into the practice an
 9. The narrative underscores the evolution of the speaker's understanding and practice of TDD, moving from a rigid implementation-focused approach to a more flexible, behavior-driven methodology.
 10. Finally, the speaker advocates for a balanced approach to TDD that focuses on meaningful testing, continuous learning, and adaptation to the evolving landscape of software development.
 
-### Remarks
+### Pesonal remarks:
 
 - 0- 22:00: arguments against TDD,
 - 22:00 - > where did it go wrong?
